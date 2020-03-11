@@ -13,6 +13,9 @@ p{
 	line-height: normal;
 }
 
+.white {
+	color:white;
+}
 .capa{
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/astronauta.png') no-repeat center center;
 	/* background: url('img/astronauta.png') no-repeat center center; */
