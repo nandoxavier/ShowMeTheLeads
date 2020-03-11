@@ -36,6 +36,12 @@ p{
 	padding-bottom: 2%;
 
 }
+.fim{
+	background: #373737;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
 .tituloDestaque{
 	font-weight: bold;
 	font-family: Raleway;
@@ -150,10 +156,6 @@ p{
 }
 
 
-.fim{
-	background: #373737;
-	padding-bottom:40px;
-}
 
 .formulario{
 	
