@@ -1,0 +1,203 @@
+/* html, body, .capa{ */
+	/* height: 100%; */
+	
+/* } */
+
+body{	
+	/* background: url('img/astronauta.png') no-repeat center center fixed; */
+	/* background-size: cover; */
+}
+
+p{
+	line-height: normal;
+}
+
+.capa{
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/astronauta.png') no-repeat center center;
+	/* background: url('img/astronauta.png') no-repeat center center; */
+	background-size: cover;
+	padding:50px;
+	/* width:100%;  */
+}
+
+.lua{
+	text-align: left;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height:100%
+	
+	/* margin-right:10px */
+}
+
+.inscrevase{
+	text-align: center;
+	color: white;	
+	margin-top: 50px;
+	margin-bottom: 40px;
+	
+	line-height:normal;
+	
+	font-family: Rotobo Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height:150%
+	
+}
+
+.curious{
+	background: #FFFFFF;
+}
+.curious1{
+	
+	text-align: left;
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height:150%;
+	
+	margin-top:60px;
+	margin-bottom:40px;
+	margin-left:50px;
+	margin-right:10px;
+	
+	color: #373737;
+}
+.curious2{
+	
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+	
+	margin-top:55px;
+	/* margin-bottom:40px; */
+	/* margin-left:50px; */
+	/* margin-right:10px; */
+	
+}
+
+.ebook{
+	background: #373737;
+	display:flex;
+}
+
+.ebook1{
+	text-align:center;
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+
+	padding:40px;
+
+	color: #FFFFFF;
+	
+}
+
+
+.ebook2{
+	text-align:center;
+	margin-top:35px;
+	color: #FFFFFF;
+
+}
+
+
+#centro {	
+	position:relative;		
+}
+
+.ebooktitle{
+	text-align:center;
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+
+	padding-top:30px;
+
+	background: #373737;
+	color: #FFFFFF;
+}
+
+.vocesabia1{
+	
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+
+	text-align: center;
+	
+	padding:50px;
+
+	color: #373737;
+}
+
+.vocesabia2{
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	
+	text-align: center;
+	
+	margin-top:50px;
+	padding:50px;
+
+	color: #373737;
+}
+
+.fim{
+	background: #373737;
+	padding-bottom:40px;
+}
+
+.formulario{
+	
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+
+	margin-top:30px;
+	padding:10px;
+
+	color: #FFFFFF;
+}
+
+.formulario2{
+	margin-top:40px
+	
+}
+
+
+img{
+	max-height:33%;
+	max-width:33%;
+}
+
+/* h1 { */
+	/* font-size:100px; */
+	/* font-weight:900; */
+	/* letter-spacing: -0.05em; */
+	/* margin-bottom:50px; */
+/* } */
