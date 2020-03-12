@@ -1,0 +1,2 @@
+[0311/231423.265:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\kirao\AppData\Local\Google\Chrome\User Data\Crashpad\reports\c745889b-2149-4d1e-96ce-208730cd2145.dmp: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo. (0x20)
+[0311/231429.980:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: O encaminhamento (pipe) foi terminado. (0x6D)

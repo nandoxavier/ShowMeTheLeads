@@ -23,6 +23,191 @@ p{
 	padding-top: 7%;
 
 }
+
+
+.fundo {
+position: absolute;
+width: 375px;
+height: 700px;
+left: 350px;
+top: -2px;
+
+background: rgba(0, 0, 0, 0.75);
+
+}
+
+/*Texto Obrigada*/
+.display-3 {
+position: absolute;
+width: 292px;
+height: 39px;
+left: 400px;
+top: 180px;
+	
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+	
+color: #FFFFFF;
+}
+
+/*Faltam*/
+.lead {
+position: absolute;
+width: 259px;
+height: 209px;
+left: 400px;
+top: 380px;
+	
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 120%;
+/* or 41px */
+	
+text-align: center;
+	
+color: #FFFFFF;
+	
+}
+
+h1 {
+position: absolute;
+width: 241px;
+height: 28px;
+left: 380px;
+top: 650px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.11em;
+
+color: #FFFFFF;
+}
+
+.display-4 {
+position: absolute;
+width: 99px;
+height: 21px;
+left: 500px;
+top: 700px;
+	
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */	
+text-align: center;	
+color: #000000;	
+}
+
+.imagem {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 520px;
+	top: 620px;
+
+}	
+
+.baixo {
+	position: absolute;
+	width: 375px;
+	height: 81px;
+	left: 350px;
+	top: 900px;
+	
+	background: #373737;
+}
+
+footer {
+position: absolute;
+width: 99px;
+height: 21px;
+left: 400px;
+top: 858px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.um {
+	position: absolute;
+	width: 34px;
+	height: 42px;
+	left: 450px;
+	top: 328px;
+	
+	background: #C4C4C4;
+}
+
+.dois {
+	position: absolute;
+	width: 34px;
+	height: 42px;
+	left: 500px;
+	top: 328px;
+
+	background: #C4C4C4;
+}
+
+.tres {
+	position: absolute;
+	width: 76px;
+	height: 46px;
+	left: 555px;
+	top: 328px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 36px;
+
+	color: #000000;
+}
+
+
+.quatro {
+	position: absolute;
+ 	width: 34px;
+	height: 42px;
+	left: 550px;
+	top: 328px;
+
+	background: #C4C4C4;
+}
+
+
+.cinco {
+	position: absolute;
+	position: absolute;
+	width: 34px;
+	height: 42px;
+	left: 600px;
+	top: 328px;
+
+	background: #C4C4C4;
+}
+
+
+
 	/* width:100%;  */
 .ebook{
 	background: #373737;
