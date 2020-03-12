@@ -27,10 +27,35 @@
   </head>
   <body>
   
-	<!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CMMMLX"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+	    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5CMMMLX"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+	
+	    <!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+				apiKey: "AIzaSyDZqX66FnSrQNxEBDYX_3xMID1hz7216dU",
+				authDomain: "showmetheleads-5bdb2.firebaseapp.com",
+				databaseURL: "https://showmetheleads-5bdb2.firebaseio.com",
+				projectId: "showmetheleads-5bdb2",
+				storageBucket: "showmetheleads-5bdb2.appspot.com",
+				messagingSenderId: "516616369011",
+				appId: "1:516616369011:web:02cae0023766e19de0cb06",
+				measurementId: "G-Z3H5FLJPN0"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
 	
 
 		<div class="container-fluid">
@@ -99,9 +124,11 @@
 				<p>Conheça 8+1 estratégias nada óbvias que irão te preparar para decolagem.</p>
 				<br/>
 				<br/>
-			<form method="POST" action="https://smtl.gama.academy/leads/00ed4b10-5ffc-11ea-bda1-a79ae41d1f3c"></form>
+				
+			<form method="POST" action="https://smtl.gama.academy/leads/00ed4b10-5ffc-11ea-bda1-a79ae41d1f3c">
 				<div class="form-group">
 					<input
+						id="inputTextName1"
 						placeholder="Nome Completo"
 						class="form-control tamanhoForm"
 						name="name"
@@ -113,6 +140,7 @@
 				</div>
 				<div class="form-group">
 					<input
+						id="inputTextEmail1"
 						placeholder="Email"
 						class="form-control tamanhoForm"
 						name="email"
@@ -122,9 +150,10 @@
 					/>
 				</div>
 				<!--<h4>Cadastre-se para receber o nosso material gratuito!</h4>-->
-
+				<!-- <input name="redirectTo" type="hidden" value="https://gama.academy" /> -->
+				<!-- <input name="debugMode" type="hidden" value="true" /> -->
 				<div class="form-group">
-					<button type="submit" class="btn btn-danger btn-lg">Receber conteúdo!</button>				  
+					<button id="saveButton1" type="submit" class="btn btn-danger btn-lg">Receber conteúdo!</button>				  
 				</div>
 			</form>
 
@@ -170,6 +199,7 @@
 				<form method="POST" action="https://smtl.gama.academy/leads/00ed4b10-5ffc-11ea-bda1-a79ae41d1f3c">
 				    <div class="form-group">
 						<input
+							id="inputTextName2"
 							placeholder="Nome Completo"
 							class="form-control tamanhoForm"
 							name="name"
@@ -181,6 +211,7 @@
 					</div>
 					<div class="form-group">
 						<input
+							id="inputTextEmail2"
 							placeholder="Email"
 							class="form-control tamanhoForm"
 							name="email"
@@ -192,14 +223,56 @@
 				    <!-- <input name="redirectTo" type="hidden" value="https://gama.academy" /> -->
 				    <!-- <input name="debugMode" type="hidden" value="true" /> -->
 				    <div class="form-group">
-						<button type="submit" class="btn btn-danger btn-lg">Inscreva-se</button>				  
+						<button id="saveButton2" type="submit" class="btn btn-danger btn-lg">Inscreva-se</button>				  
 					</div>
 				</form>			
 			</div>	
 		</div>
 	</div>
   
-  
+    <script>
+		var firestore = firebase.firestore();			
+		
+		const colRef = firestore.collection("samples");
+		
+		const inputTextName1 = document.querySelector("#inputTextName1");
+		const inputTextEmail1 = document.querySelector("#inputTextEmail1");
+		
+		const inputTextName2 = document.querySelector("#inputTextName2");
+		const inputTextEmail2 = document.querySelector("#inputTextEmail2");
+		<!-- const inputTextInsta = document.querySelector("#inputTextInsta"); -->
+		<!-- const inputTextMsg = document.querySelector("#inputTextMsg"); -->
+		const saveButton1 = document.querySelector("#saveButton1");
+		const saveButton2 = document.querySelector("#saveButton2");
+		
+		saveButton1.addEventListener("click",function(){
+			const nameToSave1 = inputTextName1.value;
+			const emailToSave1 = inputTextEmail1.value;
+			console.log("i am going to save " + nameToSave1 + " and " + emailToSave1 + "to firebase");
+			colRef.add({
+				name: nameToSave1,
+				email: emailToSave1
+			}).then(function(){
+				console.log("Status saved!");
+			}).catch(function(error){
+				console.log("Got an error: "+ error);
+			})
+		});
+		
+		saveButton2.addEventListener("click",function(){
+			const nameToSave2 = inputTextName2.value;
+			const emailToSave2 = inputTextEmail2.value;
+			console.log("i am going to save " + nameToSave2 + " and " + emailToSave2 + "to firebase");
+			colRef.add({
+				name: nameToSave2,
+				email: emailToSave2
+			}).then(function(){
+				console.log("Status saved!");
+			}).catch(function(error){
+				console.log("Got an error: "+ error);
+			})
+		});
+	</script>	
   
   
   
