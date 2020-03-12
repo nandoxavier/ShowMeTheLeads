@@ -368,7 +368,7 @@ color: #FFFFFF;
 }
 
 .imgEbook{
-	max-width:45%;
+	max-width:60%;
 	min-width: 10%;
 	margin-bottom: 5%;
 
@@ -385,14 +385,22 @@ color: #FFFFFF;
 	padding-right: 6%;
   	padding-left: 6%;
 }
-.corBotao{
+/*.corBotao{
 	background-color: #EC110D;
+}*/
+
+.btn-danger {
+    color: #fff;
+    background-color: #EC110D;
+    border-color: #EC110D;
 }
+
 .barrinha {
     width: 1.5em;
     height: 0em;
     border: 5px solid;
-    margin: auto;
+	margin: auto;
+	margin-top: 10%;
     background-color: white;
     border-color: white;
 }
