@@ -28,9 +28,9 @@ p{
 .fundo {
 position: absolute;
 width: 375px;
-height: 700px;
+height: 900px;
 left: 350px;
-top: -2px;
+top: 0px;
 
 background: rgba(0, 0, 0, 0.75);
 
@@ -42,7 +42,7 @@ position: absolute;
 width: 292px;
 height: 39px;
 left: 400px;
-top: 180px;
+top: 320px;
 	
 font-family: Raleway;
 font-style: normal;
@@ -60,7 +60,7 @@ position: absolute;
 width: 259px;
 height: 209px;
 left: 400px;
-top: 380px;
+top: 450px;
 	
 font-family: Raleway;
 font-style: normal;
@@ -80,7 +80,7 @@ position: absolute;
 width: 241px;
 height: 28px;
 left: 380px;
-top: 650px;
+top: 740px;
 
 font-family: Roboto;
 font-style: normal;
@@ -94,19 +94,20 @@ color: #FFFFFF;
 
 .display-4 {
 position: absolute;
-width: 99px;
+width: 234px;
 height: 21px;
-left: 500px;
-top: 700px;
+left: 420px;
+top: 790px;
 	
-font-family: Roboto;
+font-family: Roboto slab;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 21px;
 /* identical to box height */	
 text-align: center;	
-color: #000000;	
+letter-spacing: 0.11em;
+color: #ffffff;	
 }
 
 .imagem {
@@ -114,7 +115,7 @@ color: #000000;
 	width: 48px;
 	height: 48px;
 	left: 520px;
-	top: 620px;
+	top: 700px;
 
 }	
 
@@ -134,11 +135,12 @@ width: 99px;
 height: 21px;
 left: 400px;
 top: 858px;
+padding-top: 20px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 21px;
 line-height: 21px;
 /* identical to box height */
 
@@ -152,7 +154,7 @@ color: #FFFFFF;
 	width: 34px;
 	height: 42px;
 	left: 450px;
-	top: 328px;
+	top: 430px;
 	
 	background: #C4C4C4;
 }
@@ -162,7 +164,7 @@ color: #FFFFFF;
 	width: 34px;
 	height: 42px;
 	left: 500px;
-	top: 328px;
+	top: 430px;
 
 	background: #C4C4C4;
 }
@@ -172,7 +174,7 @@ color: #FFFFFF;
 	width: 76px;
 	height: 46px;
 	left: 555px;
-	top: 328px;
+	top: 430px;
 
 	font-family: Roboto;
 	font-style: normal;
@@ -189,7 +191,7 @@ color: #FFFFFF;
  	width: 34px;
 	height: 42px;
 	left: 550px;
-	top: 328px;
+	top: 430px;
 
 	background: #C4C4C4;
 }
@@ -201,7 +203,7 @@ color: #FFFFFF;
 	width: 34px;
 	height: 42px;
 	left: 600px;
-	top: 328px;
+	top: 430px;
 
 	background: #C4C4C4;
 }
