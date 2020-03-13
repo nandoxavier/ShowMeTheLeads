@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
 	<!-- Bootstrap CSS -->
-  <link href="estilo.css" rel="stylesheet">
+  <link href="form.css" rel="stylesheet">
   <link rel="shortcut icon" href="./img/favicon.png"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -21,18 +21,84 @@
     <div class="jumbotron text-center">
 
       <img src="./img/astronauta1.jpg" class="fundo">
-      <h1 class="display-2">Você que lute para lidar com os clichês do marketing digital.</h1>
-     
+
+      <h1 id="inicio"><strong>@vocequelead</strong></h1>
+
+      <div class="col-md-1"></div>
+			<div class=" col-md-4 espaco lua">
+			<div class="tituloDestaque"><span style="color: #FFFFFF;">Você que lute para</span> </div>
+			<div class="tituloDestaque"><span style="color: #FFFFFF;">lidar com os </span></div>
+            <div class="tituloDestaque"><span style="color: #EC110D;">clichês</span> <span style="color: #FFFFFF;">do marketing.</span> </div>
+            <div class="tituloDestaque"><span style="color: #FFFFFF;">digital</span></div>
+			<div class="barrinhaVermelha"></div>
+      </div>
+    </div>
+
+         
       <p class="corpo1">Compartilhe sua indignação com pessoas que também passam por isso.<br>
         <br>Sabemos que a indignação é grande, mas ela deve conter apenas 10 palavras.</p>
-      
-    
-      <h1><strong>@apollomarketingdigital</strong></h1>
 
-      <h2 class="display-4">Enquanto isso não deixe de nos acompamnhar no nosso Instagram para mais dicas!</h2>
-  </div>
+        <div class="form-group">
+            <button id="saveButton" type="submit" class="btn btn-danger btn-lg">Quero compartilhar!</button>		<!--Receber conteúdo-->		  
+        </div>
 
-  <footer class="baixo">@copy_right</footer>
+        <h1>Nos diga</h1>
+        <h2>Qual é a sua maior indignação?</h2>
+
+            <form method="POST" action="https://smtl.gama.academy/leads/00ed4b10-5ffc-11ea-bda1-a79ae41d1f3c">
+                <div class="form-group1">
+                <input
+                    id="inputTextName"
+                    placeholder="Nome Completo"
+                    class="form-control tamanhoForm"
+                    name="name"
+                    type="text"
+                    pattern="^\D{2,}\s[\D\s]{2,}$"
+                    title="Digite seu nome completo"
+                    required
+                />
+            </div>
+            <div class="form-group2">
+                <input
+                    id="inputTextEmail"
+                    placeholder="Email"
+                    class="form-control tamanhoForm"
+                    name="email"
+                    type="email"
+                    title="Digite um email válido"
+                    required
+                />
+            </div>
+            <div class="form-group3">
+                <input
+                    id="inputTextName"
+                    placeholder="Digite seu Instagram"
+                    class="form-control tamanhoForm"
+                    name="Instagram"
+                    type="text"
+                    pattern="^\D{2,}\s[\D\s]{2,}$"
+                    title="Digite seu Instagram"
+                    required
+                />
+            </div>
+            <div class="form-group4">
+                <input
+                    id="inputTextName"
+                    placeholder="Mensagem"
+                    class="form-control tamanhoForm"
+                    name="Mensagem"
+                    type="text"
+                    title="Digite sua mensagem"
+                    required
+                />  
+            </div>
+            </form>
+            <div class="form-group">
+                <button id="saveButton1" type="submit" class="btn btn-danger btn-lg">Compartilhar</button>		<!--Receber conteúdo-->	 
+            </div>
+        </form>
+
+        <footer class="rodape">@copy_right</footer>
 
 </body>
 

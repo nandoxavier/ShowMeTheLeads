@@ -432,3 +432,144 @@ color: #FFFFFF;
 	/* letter-spacing: -0.05em; */
 	/* margin-bottom:50px; */
 /* } */
+
+
+#inicio {
+position: absolute;
+width: 188px;
+height: 28px;
+left: 125px;
+top: -15px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 19px;
+line-height: 28px;
+letter-spacing: 0.11em;
+
+color: #FFFFFF;
+}
+
+.corpo1 {
+position: absolute;
+width: 308px;
+height: 126px;
+left: 35px;
+top: 519px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #FFFFFF;
+}
+
+#saveButton3 {
+	position: absolute;
+	width: 287.39px;
+	height: 54.3px;
+	left: 37.61px;
+	top: 688px;
+	
+	background: #EC110D;
+	border-radius: 4px;
+}
+
+.corpo2 h1 {
+	position: absolute;
+	width: 101px;
+	height: 28px;
+	left: 27px;
+	top: 893px;
+	
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	
+	color: #FFFFFF;
+}
+
+.corpo3 h2 {
+position: absolute;
+width: 237px;
+height: 21px;
+left: 28px;
+top: 924px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+
+.form-group1{
+	position: absolute;
+	width: 315px;
+	height: 46px;
+	left: 27px;
+	top: 967px;
+	
+	background: #FFFFFF;
+	border: 1px solid #373737;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+.form-group2{
+	position: absolute;
+	width: 315px;
+	height: 46px;
+	left: 27px;
+	top: 1028px;
+	
+	background: #FFFFFF;
+	border: 1px solid #373737;
+	box-sizing: border-box;
+	border-radius: 4px;	
+}
+
+.form-group3{
+	position: absolute;
+	width: 315px;
+	height: 46px;
+	left: 29px;
+	top: 1088px;
+	
+	background: #FFFFFF;
+	border: 1px solid #373737;
+	box-sizing: border-box;
+	border-radius: 4px;	
+}
+
+.form-group4{
+	position: absolute;
+	width: 315px;
+	height: 100px;
+	left: 29px;
+	top: 1148px;
+	
+	background: #FFFFFF;
+	border: 1px solid #373737;
+	box-sizing: border-box;
+	border-radius: 4px;	
+}
+
+.rodape {
+position: absolute;
+width: 375px;
+height: 81px;
+left: 0px;
+top: 1385px;
+
+background: #373737;
+}
